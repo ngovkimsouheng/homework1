@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5ce14b4205.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+        box-sizing: border-box;
+      }
+      header {
+        h1 {
+          text-align: center;
+          color: white;
+          padding: 25px;
+          background-color: darkblue;
+          margin: 2px;
+        }
+        .navbar {
+          display: flex;
+          justify-content: center;
+          gap: 100px;
+          background-color: darkslateblue;
+          a {
+            padding: 10px 0px;
+            text-decoration: none;
+            color: white;
+          }
+        }
+      }
+      main {
+        background-color: whitesmoke;
+        padding: 10px;
+        display: flex;
+        gap: 10px;
+        .section1 {
+          border-radius: 8px;
+          background-color: rgb(223, 222, 222);
+          padding: 0px 8px;
+        }
+      }
+      footer {
+        padding: 5px;
+       text-align: center;
+       background-color: gainsboro;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Simple Website</h1>
+      <div class="navbar">
+        <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="./about.html"><i class="fa-solid fa-circle-user"></i> About</a>
+        <a href="./contact.html"><i class="fa-solid fa-phone"></i> Contact</a>
+      </div>
+    </header>
+    <main>
+      <section class="section1">
+        <div class="div1">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FQA</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>New</h3>
+          <p>
+            <span>New!</span> Our website just launch. Stay tuned for updates.
+          </p>
+        </div>
+      </section>
+      <section class="section2">
+        <div>
+          <h3>Welcome to our website</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aspernatur, vero ab delectus repellendus quaerat inventore excepturi
+          </p>
+        </div>
+        <div>
+          <h3>Feature Article</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+          </p>
+          <a href=""> Read More <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <div>
+          <a href="./home.html">Home</a>
+          <a href="#">About</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+        <p>
+          Contact Us : <a href="#">info@simplewebsite.com | +1 234 567 89</a>
+        </p>
+      </section>
+      <section>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15634.453742880898!2d104.9034752!3d11.57954545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2skh!4v1749200366681!5m2!1sen!2skh"
+          width="400"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <p>
+          <i class="fa-regular fa-copyright"> </i> 2025 Simple Website . All
+          rights reserved.
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>
